@@ -15,6 +15,8 @@ namespace CGInvitation.Controllers
         public ActionResult Accept()
         {
             ViewBag.InviteCompletedText = InviteController.InviteCompleted;
+            //This needs to set extended property.
+
             return View();
         }
     }
